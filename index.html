@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+  <title>Entendendo o Daltonismo · Ensino Médio</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonte (opcional, mas elegante) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ===== Cabeçalho ===== -->
+  <header class="header">
+    <div class="container header-grid">
+      <!-- Logo (esquerda) -->
+      <div class="logo-area">
+        <img src="https://placehold.co/48x48/2d2d2d/aaaaaa?text=Logo" alt="Logo da Escola" class="logo-img">
+      </div>
+
+      <!-- Título central -->
+      <h1 class="header-title">Entendendo o Daltonismo</h1>
+
+      <!-- Navegação (direita) + menu hambúrguer -->
+      <nav class="nav-bar" id="navBar">
+        <ul class="nav-list">
+          <li><a href="#conceito">Conceito</a></li>
+          <li><a href="#flashcards">Flashcards</a></li>
+          <li><a href="#praticas">Práticas</a></li>
+        </ul>
+        <!-- botão hambúrguer (aparece em telas menores) -->
+        <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== SEÇÃO 1: CONCEITO ===== -->
+    <section id="conceito" class="section section-conceito">
+      <div class="container">
+        <h2 class="section-title">Conceito de Daltonismo</h2>
+        <div class="cards-grid">
+          <!-- Bloco 1: Causas -->
+          <article class="info-card glass">
+            <div class="card-image">
+              <img src="https://placehold.co/200x150/2d2d2d/888888?text=Olho+cone" alt="Ilustração de cones oculares">
+            </div>
+            <div class="card-content">
+              <h3>Causas</h3>
+              <p>Mutações genéticas nos genes dos cones (fotoreceptores) da retina, especialmente nos cromossomos X. A deficiência na percepção de vermelho/verde é a mais comum, afetando cerca de 8% dos homens.</p>
+            </div>
+          </article>
+
+          <!-- Bloco 2: Sintomas -->
+          <article class="info-card glass">
+            <div class="card-image">
+              <img src="https://placehold.co/200x150/2d2d2d/888888?text=Cores+confusas" alt="Ilustração de cores confusas">
+            </div>
+            <div class="card-content">
+              <h3>Sintomas</h3>
+              <p>Dificuldade em distinguir tons de vermelho, verde, azul e amarelo. Pode variar de leve (tricromacia anômala) a severo (dicromacia). Em casos raros, monocromacia (visão em preto e branco).</p>
+            </div>
+          </article>
+
+          <!-- Bloco 3: Tratamento -->
+          <article class="info-card glass">
+            <div class="card-image">
+              <img src="https://placehold.co/200x150/2d2d2d/888888?text=Lentes+cromáticas" alt="Ilustração de lentes corretivas">
+            </div>
+            <div class="card-content">
+              <h3>Tratamento</h3>
+              <p>Lentes especiais com filtros de cor, aplicativos de correção de cores, e treinamento visual. O diagnóstico precoce com testes como o Ishihara ajuda na adaptação escolar e profissional.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SEÇÃO 2: FLASHCARDS ===== -->
+    <section id="flashcards" class="section section-flashcards">
+      <div class="container">
+        <h2 class="section-title">Flashcards de Fixação</h2>
+        <div class="flashcard-grid" id="flashcardGrid">
+          <!-- 6 flashcards gerados via JS ou estáticos, mas usaremos JS para demonstrar interatividade -->
+          <!-- estrutura base: os cards serão populados pelo script, mas deixamos o grid vazio para o JS preencher -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SEÇÃO 3: ATIVIDADES PRÁTICAS ===== -->
+    <section id="praticas" class="section section-praticas">
+      <div class="container">
+        <h2 class="section-title">Nossas Práticas em Sala de Aula</h2>
+        <div class="gallery-grid">
+          <!-- Card 1 -->
+          <div class="gallery-card glass">
+            <div class="gallery-img">
+              <img src="https://placehold.co/300x180/2d2d2d/aaaaaa?text=Experiência+1" alt="Atividade prática 1">
+            </div>
+            <div class="gallery-text">
+              <h4>Teste de Ishihara</h4>
+              <p>Aplicamos o teste com placas coloridas. Muitos alunos descobriram que têm dificuldade em distinguir números em tons de vermelho/verde.</p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="gallery-card glass">
+            <div class="gallery-img">
+              <img src="https://placehold.co/300x180/2d2d2d/aaaaaa?text=Experiência+2" alt="Atividade prática 2">
+            </div>
+            <div class="gallery-text">
+              <h4>Filtros de cor</h4>
+              <p>Usamos aplicativos e filtros em dispositivos móveis para simular a visão de daltônicos, promovendo empatia e compreensão.</p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="gallery-card glass">
+            <div class="gallery-img">
+              <img src="https://placehold.co/300x180/2d2d2d/aaaaaa?text=Experiência+3" alt="Atividade prática 3">
+            </div>
+            <div class="gallery-text">
+              <h4>Mapa de cores</h4>
+              <p>Criamos um mural com objetos de diferentes cores e pedimos que os alunos os organizassem por percepção visual.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>Colégio</h4>
+        <p>Instituto Educacional Visão</p>
+        <p>Rua das Cores, 123 · Centro</p>
+        <p>contato@colegiovisao.edu</p>
+      </div>
+      <div class="footer-col">
+        <h4>Turma & Ano</h4>
+        <p>3º Ano do Ensino Médio</p>
+        <p>Turma: 302 · Biologia</p>
+        <p>Projeto interdisciplinar</p>
+      </div>
+      <div class="footer-col">
+        <h4>Alunos autores</h4>
+        <p>Ana Clara S. & Pedro H. M.</p>
+        <p>Orientador: Prof. Marcos</p>
+        <p>© 2026 · Todos os direitos</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
